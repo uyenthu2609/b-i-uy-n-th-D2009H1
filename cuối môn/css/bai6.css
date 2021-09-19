@@ -1,0 +1,71 @@
+/* CSS Document */
+.container{
+	background: lightgrey;
+	display: flex;
+	padding: 50px 0 ;
+}
+.box{
+	width: 100px;
+	height: 100px;
+	background: red;
+	margin: 20px 0 20px 100px;
+	
+}
+.scale{
+	transition-property: all;
+	/*transition-delay: 2s;*/
+	transition-duration: 2s;
+	transition-timing-function: ease-in;
+}
+.scale:hover{
+	transform: scale(1.2);
+	background: blue;
+}
+.rolate{
+	transition: all 2s linear, border-radius 15s ease, background 10s ease-in;
+}
+.rolate:hover{
+	transform: rotate(360deg);
+	border-radius: 50%;
+	background: blue;
+}
+.translate{
+	transition: all 1s;
+}
+.translate:hover{
+	transition: all 3s;
+	transform: translatey(50px);
+}
+.custom{
+	transition: all 1s;
+}
+.custom:hover{
+	transform: rotate(30deg) skew(20deg) scale(1.3) translate(50px);
+}
+.img{
+	width: 200px;
+	height: 300px;
+	margin: 50px;
+	overflow: hidden;
+}
+.img img{
+	width: 100%;
+	transition: all 2s ease;
+}
+.zoom img:hover{
+	transform: scale(1.5)
+}
+.fade{
+	opacity: .5;
+	transition: all 1s linear;
+}
+.fade:hover{
+	opacity: 1s;
+}
+.filter{
+	filter: grayscale(100%);
+	transition: all .5s linear;
+}
+.filter:hover{
+	filter: grayscale(0%);
+}

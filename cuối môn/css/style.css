@@ -1,0 +1,124 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.container{
+	width: 1600px;
+	margin: 0 auto;
+	position: fixed;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.bg-primary{
+	background: rgba(17,17,17,0.75);
+}
+.bg{
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	z-index: -1;
+}
+.bg video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.col-1{
+	width: 8.33%
+}
+.col-2{
+	width: 16.66%
+}
+.col-3{
+	width: 25%;
+}
+.col-4{
+	width: 33.33%;
+}
+.col-5{
+	width: 41.66%;
+}
+.col-6{
+	width: 50%;
+}
+.col-7{
+	width: 58.33%;
+}
+.col-8{
+	width: 66.66%;
+}
+.col-9{
+	width: 75%
+}
+.col-10{
+	width: 83.33%;
+}
+.col-11{
+	width: 91.66%
+}
+.col-12{
+	width: 100%;
+}
+.pt-1{
+	padding-top: 4px;
+}
+.pt-1{
+	padding-bottom: 4px;
+}
+.px-1{
+	padding: 0 4px;
+}
+.py-1{
+	padding: 4px 0;
+}
+/*padding 4px*/
+.px-4{
+	padding: 0 16px
+}
+.py-4{
+	padding: 16px 0;
+}
+/*padding 16px*/
+.py-6{
+	padding: 24px 0;
+}
+.pl-7{
+	padding: 28px;
+}
+.px-7{
+	padding: 0 28px;
+}
+/*padding 6*/
+.py-8{
+	padding: 32px 0;
+}
+/*padding 8*/
+.px-10{
+	padding: 0 40px;
+}
+.py-10{
+	padding: 40px 0;
+}
+.pb-24{
+	padding: 96px; 
+}
+.align-top{
+	align-self: flex-start;
+}
+.align-center{
+	align-self: center;
+}
+.aligh-bottom{
+	align-self: flex-end;
+}
+.py-24{
+	padding: 96px 0;
+}
